@@ -105,12 +105,10 @@ This section will answer these questions.
 First, before calling `esp_ble_mesh_init` API to initialize the BLE Mesh, we have to declare and define Element and Model as demonstrated in the picture below, detailing the codes to define Element:
 
 <center>
-
 	<div align="center"><img src="https://i.imgur.com/fSs0iyy.png"></div>
 	<div align="center"><img src="https://i.imgur.com/pNipHHc.png"></div>
 	<div align="center"><img src="https://i.imgur.com/OkEyOab.png"></div>	
 	<div align="center"> <b>Figure 5</b> </div>
-
 </center>
 
 The top picture in **Figure 5** shows the declaration of the Element structure, the middle shows the definition of the Element structure, and the bottom shows the Macro to be used when defining the Element.  The next part will introduce the variables of the Element structure:
