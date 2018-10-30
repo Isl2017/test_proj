@@ -126,11 +126,9 @@ The middle picture in **Figure 5** presents the definition of the Element, which
 The above section has introduced the specific ways to implement and define the Element by passing the specific Model pointers to the above Element. In this section, we'll introduce how to implement and define the Model, which is demonstrated in the picture below:
 
 <center>
-
 	<div align="center"><img src="https://i.imgur.com/7oQpCWA.png"></div>
 	<div align="center"><img src="https://i.imgur.com/4sxvONQ.png"></div>
 	<div align="center"> <b>Figure 6</b> </div>
-
 </center>
 
 First, let's take a look at the top picture in **Figure 6**, which shows the specific implementation of the Model structure. There are many variables in this structure, but only the following four variables will be used for applications:
@@ -176,11 +174,9 @@ The above section has introduced how to declare and define the Model. Let's now 
 
 Operation structure defines the state value supported by the Model. Please find the specific operation structure below:
 <center>
-
 	<div align="center"><img src="https://i.imgur.com/XA5Y1FU.png"></div>
 	<div align="center"><img src="https://i.imgur.com/Jwdqhh6.png"></div>
 	<div align="center"> <b>Figure 7</b> </div>
-
 </center>
 
 In **Figure 7**, the top picture shows the declaration of the Model operation structure, and the bottom picture shows the operation structure array defined by the OnOff Server in this demo. There are three variables in the declaration of the operation structure:
@@ -224,11 +220,9 @@ In this Demo, we opt for the simplest authentication, which is setting `output_s
 
 To meet various requirements in different applications, our BLE Mesh Menuconfig is specially designed with a variety of configuration options, which can help users quickly tailor their configuration. The configuration option list of ESP32 Menuconfig can be opened by the command `make menuconfig`. The configuration option list of BLE Mesh is stored in `Component config`  ---> `[]Bluetooth Mesh support`. Once they are opened, the following list will appear:
 <center>
-
 	<div align="center"><img src="https://i.imgur.com/jinm2QA.png"></div>
 	<div align="center"><img src="https://i.imgur.com/e0jXrkn.png"></div>
 	<div align="center"> <b>Figure 8</b> </div>
-
 </center>
 
 **Figure 8** presents lots of configuration options. Please find the part below detailing their roles and functions:
