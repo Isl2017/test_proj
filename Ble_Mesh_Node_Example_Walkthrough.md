@@ -13,12 +13,10 @@ ESP BLE Mesh is built upon Zephyr Mesh lib. The node inside ESP BLE Mesh could s
 ### 2.1 Code File Structure
 
 <center>
-
 <div align="center"><img src="https://i.imgur.com/oYe8tR9.png"></div>
 <div align="center"> <b>Figure 1</b> </div>
 <div align="center"><img src="https://i.imgur.com/eDH2lPY.png"></div>
 <div align="center"> <b>Figure 2</b> </div>
-
 </center>
 
 As presented in **Figure 1**, under the **ble\_mesh\_node** folder, are the following files and subfolders:
@@ -59,10 +57,8 @@ To help users better understand how to implement the demo, this section provides
 The next part will introduce the initialization function of BLE Mesh protocol stack. Let's see what actions are required to initialize BLE Mesh.
 
 <center>
-
 <div align="center"><img src="https://i.imgur.com/Xw3fpAQ.png"></div>
 <div align="center"> <b>Figure 4</b> </div>
-
 </center>
 
 **Figure 4** displays the codes to implement the initialization of BLE Mesh protocol stack, with focus on the functions below:
